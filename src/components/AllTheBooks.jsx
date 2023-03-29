@@ -9,7 +9,7 @@ class AllTheBooks extends Component {
   return (
     <>
     <Card className="d-flex">
-        <Card.Body >
+        <Card.Body>
               {books.map((dish, index) => (
           <Card.Text>
                     <Card.Img variant="bottom" src={dish.img} alt="First slide" style={{ height: 70, width: 70}} />
