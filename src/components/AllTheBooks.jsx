@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
-import books from '../data/fantasy.json';
+import books from '../data/horror.json';
 
 
 class AllTheBooks extends Component {
