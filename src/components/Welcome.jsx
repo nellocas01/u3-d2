@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 function Welcome() {
   return (
     <>
-     <Card border="light" style={{ width: '18rem'}}>
+     <Card border="light">
         <Card.Header>Benvenuto alla mostra dei ReactBooks</Card.Header>
         <Card.Body>
           <Card.Title>Scegli il tuo libro:</Card.Title>
