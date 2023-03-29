@@ -8,11 +8,11 @@ class AllTheBooks extends Component {
     render(){
   return (
     <>
-    <Card>
-        <Card.Body>
+    <Card className="d-flex">
+        <Card.Body >
               {books.map((dish, index) => (
           <Card.Text>
-                    <Card.Img variant="bottom" src={dish.img} alt="First slide" width={5} />
+                    <Card.Img variant="bottom" src={dish.img} alt="First slide" style={{ height: 70, width: 70}} />
             
                 <h3>{dish.title}</h3>
                 <p>
@@ -25,7 +25,7 @@ class AllTheBooks extends Component {
               </Card.Body>
           </Card>
           </>
-  );
+  )
               }
 }
 export default AllTheBooks 

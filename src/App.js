@@ -9,7 +9,7 @@ import AllTheBooks from "./components/AllTheBooks";
 function App() {
   return (
     <>
-      <MyNav brand="Books" claim="Best books in town!" />
+      <MyNav brand="EpiBooks" claim="Scegli il libro che fa per te!" />
       <Welcome/>
       <AllTheBooks/>
       <MyFooter/>

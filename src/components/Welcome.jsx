@@ -3,13 +3,12 @@ import Card from 'react-bootstrap/Card';
 function Welcome() {
   return (
     <>
-     <Card border="light" style={{ width: '18rem' }}>
-        <Card.Header>Header</Card.Header>
+     <Card border="light" style={{ width: '18rem'}}>
+        <Card.Header>Benvenuto alla mostra dei ReactBooks</Card.Header>
         <Card.Body>
-          <Card.Title>Light Card Title</Card.Title>
+          <Card.Title>Scegli il tuo libro:</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+    Qui potrai trovare tanti generi di libri, che inizi il idvertimento!!
           </Card.Text>
         </Card.Body>
       </Card>
