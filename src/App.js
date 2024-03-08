@@ -9,10 +9,12 @@ import AllTheBooks from "./components/AllTheBooks";
 function App() {
   return (
     <>
+    <div className="App">
       <MyNav brand="EpiBooks" claim="Scegli il libro che fa per te!" />
       <Welcome/>
       <AllTheBooks />
       <MyFooter/>
+      </div>
     </>
   );
 }
