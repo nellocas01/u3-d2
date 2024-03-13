@@ -1,0 +1,6 @@
+.selected-card{
+    background-color: #61dafb !important
+  }
+  .unselect-card{
+    background-color: dimgray;
+  }

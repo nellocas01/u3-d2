@@ -116,10 +116,10 @@ class AllTheBooks extends Component {
               onChange={this.handleFilterCategoryChange}
             >
               <option value="">Tutte le categorie</option>
-              <option value="horror">Horror</option>
-              <option value="romance">Romance</option>
               <option value="fantasy">Fantasy</option>
               <option value="history">History</option>
+              <option value="horror">Horror</option>
+              <option value="romance">Romance</option>
 
               {/* Aggiungi altre opzioni a seconda delle tue categorie */}
             </Form.Control>
@@ -132,7 +132,7 @@ class AllTheBooks extends Component {
             {/* libri fantasy */}
           <h1 className="my-5 bg-secondary">Fantasy Books</h1>
         <Row md={4}>
-          {filteredFantasy.map((book, index) => (
+          {filteredFantasy.slice(0,8).map((book, index) => (
             <Col key={index} >
               <Card className="bg-success m-1" style={{ height: '30rem' }} >
                 <Card.Body className="d-flex flex-column">
@@ -151,7 +151,7 @@ class AllTheBooks extends Component {
             
         <h1 className="my-5 bg-secondary">History Books</h1>
         <Row md={4}>
-          {filteredHistory.map((book, index) => (
+          {filteredHistory.slice(0,8).map((book, index) => (
             <Col key={index}>
              <Card className="bg-warning m-1" style={{ height: '30rem' }}>
                 <Card.Body className="d-flex flex-column">
@@ -170,7 +170,7 @@ class AllTheBooks extends Component {
         
         <h1 className="my-5 bg-secondary">Horror Books</h1>
         <Row md={4}>
-          {filteredHorror.map((book, index) => (
+          {filteredHorror.slice(0,8).map((book, index) => (
             <Col key={index}>
               <Card className="bg-danger m-1 border-danger" style={{ height: '30rem' }}>
                 <Card.Body className="d-flex flex-column">
@@ -189,7 +189,7 @@ class AllTheBooks extends Component {
 
         <h1 className="my-5 bg-secondary">Romance Books</h1>
         <Row md={4}>
-          {filteredRomance.map((book, index) => (
+          {filteredRomance.slice(0,8).map((book, index) => (
             <Col key={index}>
               <Card className="bg-info m-1 border-primary" style={{ height: '30rem' }}>
                 <Card.Body className="d-flex flex-column">
